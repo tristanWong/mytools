@@ -1,0 +1,36 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lianluo.lianluoIM">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+        <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="android.permission.VIBRATE" />
+        <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+        <service
+            android:name="com.lianluo.lianluoIM.LianluoPushService"
+            android:enabled="true"
+            android:exported="true"
+            android:process="com.lianluo.im">
+            <intent-filter android:priority="1000">
+                <action android:name="com.lianluo.lianluoim" />
+            </intent-filter>
+        </service>
+        <activity android:name="com.lianluo.lianluoIM.KeepAliveActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|navigation|keyboard"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:finishOnTaskLaunch="false"
+            android:launchMode="singleInstance"
+            android:process="com.lianluo.im"
+            android:theme="@style/LiveActivityStyle"
+
+        />
+
+    </application>
+
+</manifest>

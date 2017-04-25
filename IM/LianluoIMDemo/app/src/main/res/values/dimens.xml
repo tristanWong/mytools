@@ -1,0 +1,96 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- MainActivity -->
+    <dimen name="toolbar_height">44dp</dimen>
+    <dimen name="title_text_size">16.3sp</dimen>
+    <dimen name="radio_button_text_size">10.6sp</dimen>
+    <dimen name="text_no_device_size">23sp</dimen>
+    <dimen name="item_height">60dp</dimen>
+    <dimen name="device_image_width">60dp</dimen>
+    <dimen name="device_image_height">48dp</dimen>
+    <dimen name="device_margin_left">15dp</dimen>
+    <dimen name="device_name_margin_left">90dp</dimen>
+    <dimen name="device_margin_right">16dp</dimen>
+    <dimen name="ib_add_device_size">32dp</dimen>
+    <dimen name="right_holder_width">160dp</dimen>
+    <dimen name="tv_rename_width">80dp</dimen>
+
+    <!-- DeviceScanActivity -->
+    <dimen name="listview_height">350dp</dimen>
+    <dimen name="btn_height">42.3dp</dimen>
+    <dimen name="btn_width">116.2dp</dimen>
+    <dimen name="btn_margin">44.6dp</dimen>
+    <dimen name="iv_scan_size">180dp</dimen>
+    <dimen name="iv_scan_no_device_size">120dp</dimen>
+    <dimen name="text_scan_size">21sp</dimen>
+    <dimen name="iv_scanning_margin_top">120dp</dimen>
+    <dimen name="iv_scanned_margin_top">150dp</dimen>
+    <dimen name="ib_back_size">30dp</dimen>
+    <dimen name="ib_back_padding">7.5dp</dimen>
+    <dimen name="ib_back_marginleft">9.3dp</dimen>
+    <dimen name="btn_scan_size">20sp</dimen>
+
+    <dimen name="feedback_activity_horizontal_margin">36dp</dimen>
+    <dimen name="feedback_activity_vertical_margin">36dp</dimen>
+
+    <!-- DeviceClassifyActivity -->
+    <dimen name="tv_device_type_margin">14.4dp</dimen>
+    <dimen name="tv_device_type_size">14.4sp</dimen>
+    <dimen name="listview_margin_top">14.9dp</dimen>
+    <dimen name="iv_indicator_size">17.3dp</dimen>
+    <dimen name="tv_device_name_size">16sp</dimen>
+
+    <!-- TabInfoFragment -->
+    <dimen name="account_height">300dp</dimen>
+    <dimen name="account_text_size">17.3sp</dimen>
+    <dimen name="normal_text_size">16.3sp</dimen>
+    <dimen name="bg_line_height">0.5dp</dimen>
+    <dimen name="normal_block_height">41.3dp</dimen>
+    <dimen name="btn_text_size">17.3sp</dimen>
+    <!-- DevicePowerOnPromptActivity-->
+    <dimen name="image_height">240dp</dimen>
+
+    <!-- FeedbackActivity -->
+    <dimen name="feedback_content_height">145dp</dimen>
+
+    <!--LoginActivity-->
+    <dimen name="login_input_text_size">14.4sp</dimen>
+    <dimen name="login_label_text_size">11.5sp</dimen>
+    <dimen name="login_btn_text_size">17.3sp</dimen>
+
+    <!--RegisterActivity-->
+    <dimen name="verify_code_text_size">12.4sp</dimen>
+    <dimen name="agreement_text_size">11.5sp</dimen>
+    <dimen name="register_label_text_size">11.5sp</dimen>
+
+    <!--ResetPasswordActivity-->
+    <dimen name="reset_psw_label_size">16.3sp</dimen>
+
+    <!--SecurityCheckActivity-->
+    <dimen name="security_input_size">11.5sp</dimen>
+    <dimen name="security_label_size">11.5sp</dimen>
+    <dimen name="security_label_time_size">13.5sp</dimen>
+
+    <!--FeedbackActivity-->
+    <dimen name="feedback_label_size">16.3sp</dimen>
+    <dimen name="feedback_hint_size">11.5sp</dimen>
+    <dimen name="feedback_input_size">14.4sp</dimen>
+    <dimen name="feedback_spanner_text_size">17.3sp</dimen>
+
+    <!--AboutUsActivity-->
+    <dimen name="about_us_label_size_big">17.3sp</dimen>
+    <dimen name="about_us_label_size_middle">14.4sp</dimen>
+    <dimen name="about_us_label_size_small">11.5sp</dimen>
+    <dimen name="about_us_right">12.5sp</dimen>
+    <dimen name="about_us_block_text">16.3sp</dimen>
+
+    <!--DevicePowerOnPromptActivity-->
+    <dimen name="power_on_prompr_size">14.4sp</dimen>
+
+    <!--XinfengControlActivity-->
+    <dimen name="filter_value_size">86.3sp</dimen>
+    <dimen name="lb_device_sleep">23.1sp</dimen>
+</resources>
